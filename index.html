@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>3DTech</title>
+</head>
+
+<body class="bg-dark">
+    <header class="container">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="navbar">
+            <a class="navbar-brand" href="#">
+                <img src="img/3DtechLogo.png" alt="3DTech" /><span>3DTech</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosso-time">Nosso time</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Nossos produtos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#produtos">Impressoras 3D</a></li>
+                            <li><a class="dropdown-item" href="#">Cursos</a></li>
+                            <li><a class="dropdown-item" href="#">Orçamento</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="">
+        <section class="container-fluid p-0" id="carousel">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 0"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/img/vale-a-pena-investir-impressora-3d-1-.jpg" class="d-block w-100"
+                            alt="Objeto sendo impresso">
+                        <div class="carousel-caption">
+                            <h5>Quer tirar seu projeto do papel?</h5>
+                            <a href="#" class="btn btn-dark">Orçamento</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/imprimir-3d-1-.jpg" class="d-block w-100" alt="Objeto sendo impresso">
+                        <div class="carousel-caption">
+                            <h5>Nós materializamos suas ideias.</h5>
+                            <a href="#" class="btn btn-dark">Orçamento</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/investimento-impressora-3d-1-.jpg" class="d-block w-100" alt="Pessoa projetando">
+                        <div class="carousel-caption">
+                            <h5>Do mais simples ao mais complexo dos projetos.</h5>
+                            <a href="#" class="btn btn-dark">Orçamento</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/o-que-impressora-3d-1-.jpg" class="d-block w-100"
+                            alt="Profissionais trabalhando">
+                        <div class="carousel-caption">
+                            <h5>Deixe o mundo da impressão 3D te surpreender.</h5>
+                            <a href="#" class="btn btn-dark">Orçamento</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="container-quem-somos">
+            <div class="container text-center">
+                <div class="col-12">
+                    <h3 class="title">Quem somos</h3>
+                    <p class="">Conheça um pouco da nossa empresa</p>
+                </div>
+                <div class="row">
+                    <div class="container col-12  " id="quem-somos">
+                        <div class="row">
+                            <div class="col-12 " id="quem-somos-img">
+                                <img class="img-fluid rounded-5 mb-3" src="/img/Empresa-3DTech.jpeg"
+                                    alt="Empresa 3Dtech">
+                            </div>
+                            <h4 class="title">Você imagina, a gente faz!</h4>
+                            <p class="subtitle">Somos uma empresa especializada em Design de Produto e impressões 3D,
+                                apaixonada
+                                por
+                                transformar
+                                ideias em
+                                realidade.
+                                Nosso objetivo é oferecer soluções personalizadas e de alta qualidade, desde
+                                prototipagem
+                                rápida até
+                                a produção. Trabalhamos com unidades e lotes.
+                                Contamos com uma equipe qualificada e experiente. Utilizamos tecnologia avançada para
+                                garantir
+                                resultados
+                                excepcionais.
+                                Valorizamos a colaboração e a satisfação do cliente, buscando estabelecer parcerias
+                                duradouras.
+                                Entre em contato e descubra como podemos ajudar você a dar vida aos seus projetos.
+                            </p>
+                        </div>
+                        <div class="col-12" id="resultados">
+                            <div class="row justify-content-center">
+                                <div class="col-4">
+                                    <h3>7</h3>
+                                    <p>Anos de empresa</p>
+                                </div>
+                                <div class="col-4">
+                                    <h3>231</h3>
+                                    <p>Clientes</p>
+                                </div>
+                                <div class="col-4">
+                                    <h3>378</h3>
+                                    <p>Projetos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <a href="#" class="btn btn-dark">Saber mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="nosso-time">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-12 mb-3 mt-3">
+                        <h3 class="title">Nosso time</h3>
+                        <p class="subtitle">Conheça nossos profissionais</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-white border-dark bg-dark">
+                            <img class="card-img-top rounded-circle border border-info" src="/img/Rafael-Lima.jpg"
+                                alt="Imagem de funcionário 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Rafael Lima</h5>
+                                <p class="card-text">
+                                    Obteve seu diploma em Design de Produto
+                                    pela
+                                    Universidade de Artes Criativas, com foco especial em impressão 3D e prototipagem
+                                    rápida.
+                                    Possui
+                                    olhar
+                                    atento aos detalhes e uma abordagem centrada no usuário, Rafael busca criar produtos
+                                    que
+                                    melhorem a
+                                    vida
+                                    das pessoas. Agrega ao nosso time com sua ampla experiência em projetos de
+                                    mobiliário,
+                                    iluminação e
+                                    decoração.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-white border-dark bg-dark">
+                            <img class="card-img-top rounded-circle border border-info" src="/img/Isabela-Santos.jpg"
+                                alt="Imagem de funcionário 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Isabela Santos</h5>
+                                <p class="card-text">
+                                    Designer industrial especializada em fabricação digital e impressão 3D. Formada
+                                    em Design de Produto pela UNESP e com experiência em modelagem 3D, também é
+                                    professora e
+                                    criadora do
+                                    curso da 3DTech Academy. Com sua paixão pela inovação e sua habilidade em
+                                    transformar
+                                    conceitos
+                                    abstratos em produtos tangíveis, Isabela desempenha um papel fundamental na
+                                    empresa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-white border-dark bg-dark">
+                            <img class="card-img-top rounded-circle border border-info" src="/img/Afonso-Prates.png"
+                                alt="Imagem de funcionário 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Afonso da Silva Prates</h5>
+                                <p class="card-text">
+                                    Engenheiro mecânico pela UFSC, Afonso é responsável pela fabricação das
+                                    impressoras
+                                    vendidas
+                                    aqui na
+                                    3DTech.
+                                    Com experiência no desenvolvimento e aprimoramento de sistemas mecânicos, suas
+                                    máquinas
+                                    são
+                                    inovadoras
+                                    e eficientes. Oferece suporte total ao cliente e auxilia em futuros upgrades de
+                                    equipamento,
+                                    pois
+                                    sempre trazemos o que há de mais novo no setor.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="produtos">
+            <div class="container">
+                <div class="row text-center justify-content-center">
+                    <div class="col-12 mb-3 mt-3">
+                        <h3>Nossos Produtos</h3>
+                    </div>
+                    <div class="row">
+                        <div class="card col-md-6">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="/img/machine-1.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural
+                                            lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Em estoque</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card col-md-6 ">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="/img/machine-2.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural
+                                            lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Em estoque</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card col-md-6">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="/img/machine-3.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural
+                                            lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Fora de estoque</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card col-md-6 ">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="/img/machine-1.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Core XY Monster 2</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural
+                                            lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Em estoque</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card col-md-6 mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="/img/machine-1.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural
+                                            lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Em estoque</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card col-md-6 mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="/img/machine-1.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural
+                                            lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Em estoque</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="bg-dark text-center text-white mt-2">
+
+        <div class="container p-4 pb-0">
+            <section class="mb-4">
+
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+
+            </section>
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Desenvolvido por: Rafaela Valendorff
+            <a class="text-white" href="https://mdbootstrap.com/"></a>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

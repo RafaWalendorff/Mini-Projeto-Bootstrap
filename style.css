@@ -1,0 +1,167 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    color: aliceblue;
+}
+
+/* Navbar */
+
+
+#navbar {
+    border-bottom: 1px solid rgb(0, 173, 181);
+}
+
+#navbar a:hover {
+    color: rgb(0, 173, 181);
+}
+
+#navbar a.active {
+    border-bottom: 1px solid #ffffff;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    display: flex;
+}
+
+.navbar-brand img {
+    width: 55px;
+    margin-left: 1em;
+}
+
+.navbar-brand span {
+    font-weight: 700;
+    font-size: 1.4em;
+    margin-left: 0.5em;
+    margin-top: 0.2em;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbarSupportedContent .nav-item {
+    margin: 0 1em;
+
+}
+
+
+/* Carousel */
+
+
+#carouselExampleCaptions {
+    margin-top: 5em;
+    margin-bottom: 1em;
+}
+
+#carouselExampleCaptions .carousel-caption {
+    bottom: 2em;
+}
+
+#carouselExampleCaptions .carousel-caption h5 {
+    font-size: 2.5em;
+    text-shadow: #000000 2px 2px;
+}
+
+.btn {
+    border-radius: 1em;
+}
+
+#carouselExampleCaptions .btn {
+    padding: 0.8em 1em;
+    border-color: rgb(0, 173, 181);
+    letter-spacing: 0.1rem;
+    font-size: 1.1em;
+    margin-top: 1em;
+}
+
+
+@media(min-width: 768px) {
+    #carouselExampleCaptions .carousel-caption {
+        bottom: 12em;
+    }
+
+    #carouselExampleCaptions .carousel-caption h5 {
+        font-size: 4em;
+        text-shadow: #000000 3px 3px;
+    }
+
+    #carouselExampleCaptions .btn {
+        padding: 0.8em 1.2em;
+    }
+
+}
+
+/* Quem Somos */
+
+#container-quem-somos {
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+
+#quem-somos {
+    margin-top: 2em;
+    margin-bottom: 6em;
+    border-radius: 0.5em;
+    padding: 2.1em 2em 1em;
+    background-color: hwb(222 88% 4%);
+    color: rgb(53, 75, 97);
+}
+
+#quem-somos .btn {
+    padding: 0.8em 1em;
+    border: 1px solid rgb(0, 173, 181);
+    letter-spacing: 0.1rem;
+    font-size: 1em;
+}
+
+#quem-somos-img {
+    margin-top: 1em;
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: em;
+}
+
+#resultados {
+    padding-left: 1em;
+    margin: 1em 0;
+    text-align: center;
+}
+
+/* Nosso Time */
+
+#nosso-time .card-img-top {
+    width: 190px;
+}
+
+#nosso-time .card {
+    align-items: center;
+    text-align: center;
+}
+
+/* Produtos */
+
+#produtos {
+    
+}
+
+#produtos .card {
+    max-width: 540px;
+}
+
+
+
+
+
+p {
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+footer {
+    border-top: 1px solid rgb(0, 173, 181);
+}
